@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Sen", system-ui;
+  font-family: "Poppins", system-ui;
+  font-size: 1.6rem;
+}
+/*Common  */
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 25px;
+  padding: 11px 41px;
+  background: #171100;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* header */
+.header {
+  height: 900px;
+  background: #fffcf4;
+}
+
+.header .navbar {
+  display: flex;
+
+  padding: 36px 0 0 65px;
+}
+
+.header .list,
+.header .btn {
+  margin-left: auto;
+}
+.header .list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  margin-left: auto;
+}
+.header .item {
+  margin-left: 42px;
+}
+
+.header .item a {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.header .active a {
+  position: relative;
+  color: #171100;
+  font-weight: 600;
+}
+
+.header .active a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 12px;
+  background: #171100;
+  right: 0;
+  bottom: 0;
+  left: 1px;
+}
+
+.header .btn-menu {
+  margin-left: 70px;
+}
