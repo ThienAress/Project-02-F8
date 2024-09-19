@@ -23,8 +23,8 @@ a {
 
 .btn {
   display: flex;
-  align-items: center;
   height: 50px;
+  align-items: center;
   border-radius: 25px;
   padding: 11px 41px;
   background: #171100;
@@ -32,6 +32,7 @@ a {
   font-family: Poppins;
   font-size: 1.6rem;
   font-weight: 600;
+  text-align: center;
 }
 
 /* header */
@@ -46,8 +47,7 @@ a {
   padding: 36px 0 0 65px;
 }
 
-.header .list,
-.header .btn {
+.header .list {
   margin-left: auto;
 }
 .header .list {
@@ -89,4 +89,257 @@ a {
 
 .header .btn-menu {
   margin-left: 70px;
+  width: 144px;
+}
+/* Hero */
+.header .hero {
+  margin-top: 64px;
+  display: flex;
+  position: relative;
+}
+
+.header .hero-img {
+  width: 48%;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.header .section {
+  position: absolute;
+  bottom: 48px;
+  left: 300px;
+}
+
+.header .section {
+  background: #fff;
+  padding: 24px 63px 24px 24px;
+  border-radius: 12px;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header .section-info {
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+  gap: 16px;
+}
+
+.header .section-info:first-child {
+  margin-top: 0;
+}
+
+.header .section-design {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .section-course {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.header .section-title {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.header .info {
+  padding: 64px 0 0 230px;
+}
+
+.header .title {
+  max-width: 486px;
+  color: #171100;
+  font-family: Sen;
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.17; /* 117.241% */
+  letter-spacing: -1.16px;
+}
+
+.header .desc {
+  width: 470px;
+  margin-top: 22px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66; /* 166.667% */
+}
+
+.header .course {
+  margin-top: 38px;
+  display: flex;
+}
+
+.header .btn-course {
+  width: 184px;
+  height: 64px;
+  border-radius: 32px;
+}
+
+.header .video {
+  margin-left: 28px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header .video-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.header .video-watch {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.header .data {
+  margin-top: 48px;
+}
+
+.header .data-desc {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.header .statistical {
+  margin-top: 8px;
+  display: flex;
+  gap: 28px;
+}
+
+.header .statistical-student {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1, 8rem;
+  font-weight: 400;
+}
+
+.header .statistical span {
+  color: #171100;
+  font-family: Sen;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 54px;
+}
+/* ------------------------------------------------------------------ */
+/* Courses */
+.courses {
+  margin-top: 200px;
+}
+
+.courses .sub-title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.courses .skill {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .skill .desc {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66; /* 166.667% */
+}
+
+.courses .slide .slide-arrow-right {
+  margin-left: 8px;
+  transform: rotate(180deg);
+}
+/* Product */
+.courses .product {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.courses .product-img {
+  width: 370px;
+  height: 278px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.product-info {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses .comment {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses .comment,
+.courses .product-desc,
+.courses .price {
+  padding: 0 22px 22px 22px;
+}
+
+.courses .product-title {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.courses .evaluate-star {
+  color: #fea31b;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.courses .product-desc {
+  width: 326px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+.courses .price {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courses .produce-price {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1, 8rem;
+  font-weight: 600;
+}
+
+.courses .price-btn_active {
+  border-radius: 25px;
+  background: #ffb900;
 }
