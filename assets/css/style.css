@@ -43,8 +43,7 @@ a {
 
 .header .navbar {
   display: flex;
-
-  padding: 36px 0 0 65px;
+  padding: 36px 0 0 0;
 }
 
 .header .list {
@@ -342,4 +341,174 @@ a {
 .courses .price-btn_active {
   border-radius: 25px;
   background: #ffb900;
+}
+/* ------------------------------------------------------------ */
+/* Reviews */
+.reviews {
+  margin-top: 200px;
+  background: #2e2100;
+}
+
+.reviews .view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 96px 0;
+}
+
+.reviews .viewer {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+  object-fit: cover;
+}
+
+.reviews .name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.reviews .job {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.reviews .slide {
+  margin-top: 28px;
+}
+
+.reviews .comment {
+  width: 66%;
+}
+
+.reviews .comment .desc {
+  margin-left: 30px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.53;
+}
+/* ----------------------------------------------------------- */
+/* Platform */
+.platform {
+  margin-top: 200px;
+  position: relative;
+}
+
+.platform-info {
+  display: flex;
+}
+
+.platform-info_img {
+  display: flex;
+  gap: 30px;
+}
+
+.platform-info_img_all {
+  width: 270px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.platform-info_img_2 {
+  margin-bottom: 33px;
+  margin-top: -34px;
+}
+
+.platform-hero {
+  padding: 24px 0px 0px 130px;
+}
+
+.platform-hero .sub-title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.platform-hero .desc,
+.platform-hero .publish {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.platform-hero .desc {
+  margin: 16px 0;
+}
+
+.platform-hero_btn {
+  margin-top: 32px;
+  width: 137px;
+  border-radius: 26px;
+  background: #ffb900;
+  white-space: nowrap;
+}
+/* -------------------------------------------------------- */
+/* Lesson */
+.lesson {
+  margin-top: 200px;
+}
+
+.lesson-info {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.lesson-join {
+  width: 49%;
+}
+
+.lesson-join .sub-title {
+  color: #171100;
+  width: 570px;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.lesson-join .desc {
+  margin-top: 16px;
+  width: 570px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.lesson-join .lesson-hero_btn {
+  margin-top: 32px;
+  width: 137px;
+  border-radius: 26px;
+  background: #ffb900;
+  white-space: nowrap;
+}
+
+.lesson-img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  object-fit: cover;
 }
